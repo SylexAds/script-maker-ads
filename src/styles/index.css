@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn { @apply inline-flex items-center justify-center gap-2 px-3 py-2 rounded-lg border; }
+.btn-primary { @apply bg-black text-white border-black; }
+.btn-outline { @apply bg-white text-black border-neutral-200; }
+.btn-secondary { @apply bg-neutral-100 text-black border-neutral-200; }
+.btn-danger { @apply bg-red-600 text-white border-red-600; }
+
+.card { @apply bg-white border border-neutral-200 rounded-2xl shadow-sm; }
+.card-header { @apply px-4 pt-4 pb-2; }
+.card-title { @apply text-lg font-semibold; }
+.card-content { @apply p-4; }
+.input { @apply w-full border rounded-lg px-3 py-2 bg-white; }
+.textarea { @apply w-full border rounded-lg px-3 py-2 bg-white; }
+.label { @apply block text-sm font-medium mb-1; }
+.select { @apply w-full border rounded-lg px-3 py-2 bg-white; }
+.switch { @apply inline-flex items-center; }
